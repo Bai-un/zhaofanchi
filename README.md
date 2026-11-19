@@ -6,6 +6,7 @@
 
 - 网页版（PWA）：<https://shiji-cookbook-i8twnwpp6i3.qoder.zone>
 - 安卓安装包：[找饭吃-v1.0.apk](./找饭吃-v1.0.apk)（Android 10+，约 1.3 MB）
+- 下载页：<https://github.com/Bai-un/zhaofanchi/releases/latest>
 
 ## 功能
 
