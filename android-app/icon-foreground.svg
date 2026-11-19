@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="26%" cy="16%" r="100%">
+      <stop offset="0" stop-color="#CA6B50"/>
+      <stop offset="0.58" stop-color="#B85C43"/>
+      <stop offset="1" stop-color="#A34832"/>
+    </radialGradient>
+    <clipPath id="lens">
+      <circle cx="226" cy="214" r="126"/>
+    </clipPath>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g transform="translate(256 256) scale(0.8) translate(-256 -256)">
+    <line x1="310" y1="296" x2="388" y2="372" stroke="#432C24" stroke-width="46" stroke-linecap="round"/>
+    <circle cx="226" cy="214" r="140" fill="#FAF6EE"/>
+    <circle cx="226" cy="214" r="126" fill="#F3E7D8"/>
+    <g clip-path="url(#lens)">
+      <g fill="none" stroke="#C96B50" stroke-width="11" stroke-linecap="round">
+        <path d="M190 184 C177 166 203 154 190 132"/>
+        <path d="M226 176 C213 158 239 146 226 124"/>
+        <path d="M262 184 C249 166 275 154 262 132"/>
+      </g>
+      <path d="M150 256 C154 222 184 200 226 200 C268 200 298 222 302 256 Z" fill="#FFFEF9"/>
+      <g fill="#E8D5BE">
+        <ellipse cx="198" cy="230" rx="5" ry="8" transform="rotate(-18 198 230)"/>
+        <ellipse cx="228" cy="216" rx="5" ry="8"/>
+        <ellipse cx="258" cy="232" rx="5" ry="8" transform="rotate(18 258 232)"/>
+      </g>
+      <rect x="136" y="246" width="180" height="24" rx="12" fill="#8F4533"/>
+      <path d="M140 262 C144 300 176 322 226 322 C276 322 308 300 312 262 Z" fill="#B85C43"/>
+      <path d="M160 280 C168 304 192 316 220 318" fill="none" stroke="#D97757" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+    </g>
+    <circle cx="226" cy="214" r="140" fill="none" stroke="#FAF6EE" stroke-width="24"/>
+    <path d="M162 150 A90 90 0 0 1 226 124" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+    <path d="M370 102 L375 115 L388 120 L375 125 L370 138 L365 125 L352 120 L365 115 Z" fill="#FAF6EE" opacity="0.95"/>
+  </g>
+</svg>
